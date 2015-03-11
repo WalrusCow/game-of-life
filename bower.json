@@ -1,8 +1,8 @@
 {
-  "name": "canvas",
+  "name": "life",
   "private": true,
   "version": "1.0.0",
-  "ignore": ["LICENSE", "README.md"],
+  "ignore": ["LICENSE", "README.md", "main.html", "main.js"],
   "dependencies": {
     "sg": "https://github.com/WalrusCow/sg.git",
     "requirejs": "2.1.16"
