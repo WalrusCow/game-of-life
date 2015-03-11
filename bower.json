@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "ignore": ["LICENSE", "README.md"],
   "dependencies": {
-    "sg": "https://github.com/WalrusCow/sg.git"
+    "sg": "https://github.com/WalrusCow/sg.git",
+    "requirejs": "2.1.16"
   }
 }
