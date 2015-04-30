@@ -71,8 +71,8 @@ define(['lib/sg/sg', 'lib/sg/util'], function (sg, util) {
       offset.x += el.offsetLeft - el.scrollLeft;
       offset.y += el.offsetTop - el.scrollTop;
     } while(el = el.offsetParent)
-    var x = e.clientX - offset.x;
-    var y = e.clientY - offset.y;
+    var x = (e.pageX || e.clientX) - offset.x;
+    var y = (e.pageY || e.clientY) - offset.y;
 
     // Account for the border
     var re = /px$/;
